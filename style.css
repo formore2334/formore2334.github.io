@@ -73,6 +73,13 @@ ul li a:hover{
     color: rgb(230,104,59);
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .info a{
     text-decoration:  none;
     color: #fff;
