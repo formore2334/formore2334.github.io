@@ -88,26 +88,53 @@ ul li a:hover{
     background: rgb(59,174,209);
 }
 
-.image{
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: 0;
+/*.image{*/
+/*    width: 30%;*/
+/*    height: 60%;*/
+/*    position: absolute;*/
+/*    right: 100px;*/
+/*    bottom: 0;*/
+/*}*/
+/**/
+/*.image img{*/
+/*    position: absolute;*/
+/*    height: 140%;*/
+/*    left: 40%;*/
+/*    transform: translate(-55%);*/
+/*    bottom: 0;*/
+/*    transition: left 2s ease;*/
+/*}*/
+/**/
+/*.image:hover .girl{*/
+/*    left: 55%;*/
+/*}*/
+
+.container {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  display: flex;
 }
 
-.image img{
-    position: absolute;
-    height: 140%;
-    left: 40%;
-    transform: translate(-55%);
-    bottom: 0;
-    transition: left 2s ease;
+.item {
+  margin-right: 20px;
+  text-align: center;
 }
 
-.image:hover .girl{
-    left: 55%;
+.image {
+  width: 100px; /* ширина изображения */
+  height: 100px; /* высота изображения */
 }
+
+.item p {
+  padding-top: 10px;
+}
+
+.item a {
+  display: block;
+  margin-top: 10px;
+}
+
 
 .icons a{
     text-decoration: none;
