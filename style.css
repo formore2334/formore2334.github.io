@@ -112,7 +112,8 @@ ul li a:hover{
 .container {
   position: absolute;
   bottom: 20px;
-  left: 16px;
+  
+  right: 16px;
   display: flex;
 }
 
@@ -122,12 +123,12 @@ ul li a:hover{
 }
 
 .image {
-  width: 100px; /* ширина изображения */
-  height: 100px; /* высота изображения */
+  width: 50px; /* ширина изображения */
+  height: 50px; /* высота изображения */
 }
 
 .item p {
-  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .item a {
